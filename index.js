@@ -1,6 +1,6 @@
 // add function
 
-function add(){
+let add =() =>{
 let a = parseInt(document.getElementById("num-1").value)
 let b = parseInt(document.getElementById("num-2").value)
 
@@ -13,7 +13,7 @@ return document.getElementById("output").innerHTML=("Addition of two number is--
 }
 
 //sub function
-function sub(){
+let sub = () =>{
 let a = parseInt(document.getElementById("num-1").value)
 let b = parseInt(document.getElementById("num-2").value)
 
@@ -23,7 +23,7 @@ document.getElementById("output").innerHTML=("Subtraction of two number is-->"+r
 }
 
 //div functon
-function div(){
+let div = () => {
 let a = parseInt(document.getElementById("num-1").value)
 let b = parseInt(document.getElementById("num-2").value)
 
@@ -33,7 +33,7 @@ document.getElementById("output").innerHTML=("Division of two number is-->"+resu
 }
 
 //mul function
-function mul(){
+let mul = () => {
     let a = parseInt(document.getElementById("num-1").value)
     let b = parseInt(document.getElementById("num-2").value)
     
@@ -41,11 +41,9 @@ function mul(){
     document.getElementById("output").innerHTML=("Multiplication of two number is-->"+result_4);
     return a*b
 }
-function refresh(){
+let refresh = () => {
  document.getElementById("output").innerHTML= "Output:";
  document.getElementById("num-1").value=null
- document.getElementById("num-2").value=null
-
-    
+ document.getElementById("num-2").value=null    
 }
 
